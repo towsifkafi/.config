@@ -14,3 +14,4 @@ bashtop/error.log
 !rofi/**
 !omf/**
 !alacritty/**
+!tmux/**

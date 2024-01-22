@@ -50,5 +50,15 @@ alias pcolor='gpick --pick --single -o | xclip -selection clipboard'
 alias miam-select='maim --select | tee ~/Pictures/Screenshots/$(date +%s).png | xclip -selection clipboard -t image/png'
 alias miam-full='maim | tee ~/Pictures/Screenshots/$(date +%s).png | xclip -selection clipboard -t image/png'
 
+alias ssselect="maim --select | tee ~/Pictures/Screenshots/$(date +%s).png | xclip -selection clipboard -t image/png"
+alias ssfull="maim | tee ~/Pictures/Screenshots/$(date +%s).png | xclip -selection clipboard -t image/png"
+
+# tmux aliases
+alias tmls="tmux ls"
+alias tmkill="tmux kill-server"
+alias tma="tmux attach -t "
+alias tmr="tmux rename-session -t "
+alias tmn= "tmux new -s "
+
 # inshellisense
 #[ -f ~/.inshellisense/key-bindings.fish ] && source ~/.inshellisense/key-bindings.fish

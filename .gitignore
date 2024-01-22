@@ -1,0 +1,15 @@
+# Ignore all files from .config
+*
+!*/
+
+# Whitelists
+!.gitignore
+!/README.md
+
+!fish/**
+!fastfetch/**
+!nvim/**
+
+!rofi/**
+!omf/**
+!alacritty/**

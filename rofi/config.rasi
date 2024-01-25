@@ -1,2 +1,2 @@
 //@theme "/home/kafi/.local/share/rofi/themes/squared-nord.rasi"
-@theme "/home/kafi/.local/share/rofi/themes/rounded-nord-dark.rasi"
+@theme "themes/dracula.rasi"

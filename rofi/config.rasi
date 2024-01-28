@@ -1,2 +1,14 @@
 //@theme "/home/kafi/.local/share/rofi/themes/squared-nord.rasi"
+
+configuration {
+    show-icons: true;
+    location: 0;
+    disable-history: false;
+    terminal: "alacritty";
+    drun-display-format: "{icon} {name}";
+    display-ssh: " SSH ";
+    fake-transparency: true;
+    modi: "window,run,ssh,filebrowser,emoji";
+}
+
 @theme "themes/dracula.rasi"

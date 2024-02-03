@@ -26,39 +26,11 @@ set -x GOPATH $HOME/go
 set -x PATH $PATH $GOPATH/bin
 
 # aliases
-alias vim='nvim'
-alias fix-sound='systemctl --user restart pipewire.service'
+source ~/.config/fish/aliases/other.fish
+source ~/.config/fish/aliases/tools.fish
+source ~/.config/fish/aliases/tmux.fish
 
-alias lstree='eza -aT --color=always --group-directories-first --icons'
-alias ls='eza -a --color=always --group-directories-first --icons'
-alias ll='eza -l --color=always --group-directories-first --icons'
-alias grep='grep --color=auto -i'
-#alias mkdir='mkdir -p'
-alias cp='cp -i'
-alias mv='mv -i'
-alias history='history | nl'
-
-alias ..='cd ..'
-alias ...='cd ../..'
-alias ....='cd ../../..'
-
-alias tt='bash ~/tt.sh'
-
-alias mytty='ps $(pgrep Xorg)'
-alias serve='python -m SimpleHTTPServer'
-alias pcolor='gpick --pick --single -o | xclip -selection clipboard'
-alias miam-select='maim --select | tee ~/Pictures/Screenshots/$(date +%s).png | xclip -selection clipboard -t image/png'
-alias miam-full='maim | tee ~/Pictures/Screenshots/$(date +%s).png | xclip -selection clipboard -t image/png'
-
-alias ssselect="maim --select | tee ~/Pictures/Screenshots/$(date +%s).png | xclip -selection clipboard -t image/png"
-alias ssfull="maim | tee ~/Pictures/Screenshots/$(date +%s).png | xclip -selection clipboard -t image/png"
-
-# tmux aliases
-alias tmls="tmux ls"
-alias tmkill="tmux kill-server"
-alias tma="tmux attach -t "
-alias tmr="tmux rename-session -t "
-alias tmn= "tmux new -s "
+source ~/.config/fish/aliases/nim.fish
 
 # inshellisense
 #[ -f ~/.inshellisense/key-bindings.fish ] && source ~/.inshellisense/key-bindings.fish

@@ -30,6 +30,7 @@ call plug#begin()
     Plug 'evanleck/vim-svelte', {'branch': 'main'}
 
     Plug 'neoclide/coc.nvim', {'branch': 'release'}
+    Plug 'Exafunction/codeium.vim', { 'branch': 'main' }
 call plug#end()
 colorscheme nord
 let g:airline_powerline_fonts = 1

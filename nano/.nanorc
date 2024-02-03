@@ -1,0 +1,21 @@
+#set mouse
+set autoindent
+set linenumbers
+#set emptyline
+set minibar
+set nohelp
+
+set titlecolor bold,white,blue
+set promptcolor lightwhite,grey
+set statuscolor bold,white,green
+set errorcolor bold,white,red
+set spotlightcolor black,lightyellow
+set selectedcolor lightwhite,magenta
+set stripecolor ,yellow
+set scrollercolor cyan
+set numbercolor cyan
+set keycolor cyan
+set functioncolor green
+
+# syntax highlighting
+include ~/.config/nano/syntax/*.nanorc

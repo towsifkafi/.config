@@ -15,3 +15,5 @@ bashtop/error.log
 !omf/**
 !alacritty/**
 !tmux/**
+!nano/**
+!scripts/**

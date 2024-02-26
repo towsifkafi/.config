@@ -8,3 +8,5 @@ alias miam-full='maim | tee ~/Pictures/Screenshots/$(date +%s).png | xclip -sele
 
 alias ssselect="maim --select | tee ~/Pictures/Screenshots/$(date +%s).png | xclip -selection clipboard -t image/png"
 alias ssfull="maim | tee ~/Pictures/Screenshots/$(date +%s).png | xclip -selection clipboard -t image/png"
+
+alias snips="ssh snips.sh"

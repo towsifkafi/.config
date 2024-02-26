@@ -1,11 +1,11 @@
 # ~/.config/fish/functions/nvm.fish
 function nvm
-  bass source ~/.nvm/nvm.sh --no-use ';' nvm $argv
+  #bass source ~/.nvm/nvm.sh --no-use ';' nvm $argv
 end
 
 # ~/.config/fish/functions/nvm_find_nvmrc.fish
 function nvm_find_nvmrc
-  bass source ~/.nvm/nvm.sh --no-use ';' nvm_find_nvmrc
+  #bass source ~/.nvm/nvm.sh --no-use ';' nvm_find_nvmrc
 end
 
 # ~/.config/fish/functions/load_nvm.fish

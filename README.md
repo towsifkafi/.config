@@ -3,13 +3,12 @@ This repository contains important files from my `~/.config` folder, which I sha
 
 These configs are made for my devices. I've made them public for everyone, but please don't blindly use these configs, you might need to modify them for your use. Use them at your own risk!
 
-## Info  - _if i ever forget how to use these_
+## 🛟 Help  - _if i ever forget how to use these_
 > ### scripts
 **Add this folder to path**
 ```
 fish_add_path $HOME/.config/scripts
 ```
-<br>
 
 > ### fish
 Install:
@@ -29,7 +28,7 @@ omf install bobthefish
 
 
 > ### neovim
- - Install this [Vim-plug](https://github.com/junegunn/vim-plug) 
+ - Install this [Vim-plug](https://github.com/junegunn/vim-plug). Then `:PlugInstall`
 
 > ### nano
 **.nanorc** needs to be in the home directory, otherwise it won't work
@@ -42,8 +41,14 @@ Before using powerline:
 ```sh
 pip install powerline-status
 ```
-<br>
+> ### zellij
+Alternative to tmux. Zellij plugins:
+- [monocle](https://github.com/imsnif/monocle) - for fuzzy search
+- [room](https://github.com/rvcas/room) - quick search & tab switching
+- [zellij_forgot](https://github.com/karimould/zellij-forgot) - keybinds help menu
+- [zjstatus](https://github.com/dj95/zjstatus) - status bar for zellij
+
 <br>
 
 > ### remote/**
-Same configs (slightly modified) for remote machines SSH, or Terminal interaces.
+Configs (slightly modified) for remote machines (SSH), or Terminal interaces.

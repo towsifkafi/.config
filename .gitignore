@@ -15,6 +15,7 @@ bashtop/error.log
 !omf/**
 !alacritty/**
 !tmux/**
+!zellij/**
 !nano/**
 !scripts/**
 !remote/**

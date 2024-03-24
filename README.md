@@ -28,7 +28,7 @@ omf install bobthefish
 
 
 > ### neovim
- - Install this [Vim-plug](https://github.com/junegunn/vim-plug). Then `:PlugInstall`
+ - Install [Vim-plug](https://github.com/junegunn/vim-plug). Then `:PlugInstall`
 
 > ### nano
 **.nanorc** needs to be in the home directory, otherwise it won't work

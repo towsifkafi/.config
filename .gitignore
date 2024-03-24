@@ -17,4 +17,5 @@ bashtop/error.log
 !tmux/**
 !nano/**
 !scripts/**
+!remote/**
 !warp-terminal/keybindings.yaml

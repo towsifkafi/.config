@@ -60,10 +60,13 @@ call plug#begin()
 call plug#end()
 
 colorscheme catppuccin-mocha
-
 " setup dashboard
 lua vim.cmd("luafile " .. vim.fn.expand("~/.config/nvim/start.lua"))
 lua vim.cmd("luafile " .. vim.fn.expand("~/.config/nvim/keymaps.lua"))
+
+if exists("g:neovide")
+    lua vim.cmd("luafile " .. vim.fn.expand("~/.config/nvim/neovide.lua"))
+endif
 
 "autocmd VimEnter * set nornu nonu | Neotree toggle
 autocmd BufEnter * set nu
@@ -90,7 +93,6 @@ nnoremap <A-Right> :bnext<CR>
 
 nnoremap <A-p> :Telescope<CR>
 nnoremap <C-p> :Telescope<CR>
-
 
 lua <<EOF
   -- Set up nvim-cmp.

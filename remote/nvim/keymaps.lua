@@ -8,7 +8,6 @@ vim.api.nvim_set_keymap('n', '<Leader><Leader>', '', {
         -- Sends a notification
         vim.notify('Reloaded init.vim', vim.log.levels.INFO)
     end,
-    desc = 'Reload init.vim',
 })
 
 -- THEME PICKER
@@ -26,7 +25,6 @@ vim.api.nvim_set_keymap('n', '-', '', {
         -- Execute the Telescope themes command
         vim.cmd('Telescope themes')
     end,
-    desc = 'Change Theme',
 })
 
 -- WHICH KEY

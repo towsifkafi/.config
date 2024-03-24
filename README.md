@@ -17,7 +17,6 @@ Install:
 ```sh
 omf install bobthefish
 ```
-<br>
 
 > ### rofi
 - **custom/notes.sh**:
@@ -27,21 +26,24 @@ omf install bobthefish
   - Keybind: `Super+~`
 - **custom/tmux.sh**:
   - Keybind: `Super+t`
-<br>
+
 
 > ### neovim
-Install this [Vim-plug](https://github.com/junegunn/vim-plug) 
-<br>
+ - Install this [Vim-plug](https://github.com/junegunn/vim-plug) 
 
 > ### nano
-**.nanorc** needs to be in the home directory so:
+**.nanorc** needs to be in the home directory, otherwise it won't work
 ```sh
 ln -s $HOME/.config/nano/.nanorc $HOME/
 ```
-<br>
 
 > ### tmux
 Before using powerline:
 ```sh
 pip install powerline-status
 ```
+<br>
+<br>
+
+> ### remote/**
+Same configs (slightly modified) for remote machines SSH, or Terminal interaces.

@@ -25,6 +25,12 @@ set -g theme_display_git_default_branch yes
 set -x GOPATH $HOME/go
 set -x PATH $PATH $GOPATH/bin
 
+#export FLYCTL_INSTALL="/home/kafi/.fly"
+#export PATH="$FLYCTL_INSTALL/bin:$PATH"
+
+set -x FLYCTL_INSTALL $HOME/.fly
+set -x PATH $PATH $FLYCTL_INSTALL/bin:$PATH
+
 # aliases
 source ~/.config/fish/aliases/other.fish
 source ~/.config/fish/aliases/tools.fish

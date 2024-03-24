@@ -39,22 +39,6 @@ dashboard.setup({
   },
 })
 
-require("nvim-treesitter.configs").setup({
-  ensure_installed = {"lua", "vim", "json"},
-  highlight = {
-    enable = true,
-  },
-})
-require('nvim-ts-autotag').setup({
-  filetypes = { "html" , "xml", "jsx", "svelte", "md" },
-})
-
-require'lspconfig'.tsserver.setup{}
-require'lspconfig'.svelte.setup{}
-require'lspconfig'.lua_ls.setup{}
-
-
-
 -- require("noice").setup()
 
   require("noice").setup({
@@ -63,6 +47,8 @@ require'lspconfig'.lua_ls.setup{}
         position = {
           row = "90%",
           col = "50%",
+        },
+        border = {
           style = "none",
           padding = { 1, 2 },
         },
@@ -74,7 +60,6 @@ require'lspconfig'.lua_ls.setup{}
       },
       popupmenu = {
         relative = "editor",
-        backend = "nui",
         position = {
           row = "80%",
           col = "50%",
@@ -92,9 +77,6 @@ require'lspconfig'.lua_ls.setup{}
         },
       },
     },
-    presets = {
-        command_palette = true,
-    }, 
   })
 
 require("telescope").load_extension("noice")
@@ -103,5 +85,3 @@ require('lualine').setup()
 require('telescope').load_extension('lazygit')
 require('telescope').load_extension('themes')
 require("telescope").load_extension('file_browser')
-
-

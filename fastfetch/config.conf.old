@@ -18,7 +18,7 @@
 # Must be a path to a config file or the name of a shipped preset.
 # The config file is completely loaded before continuing in the current file, so the placement of this option matters, as later options overwrite already set ones.
 # Can be used multiple times to load multiple config files / presets.
---load-config $HOME/.config/fastfetch/lmao.jsonc
+#-config $HOME/.config/fastfetch/lmao.jsonc
 
 # Structure option:
 # Sets the modules to use and their order.

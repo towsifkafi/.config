@@ -38,6 +38,8 @@ source ~/.config/fish/aliases/tmux.fish
 
 source ~/.config/fish/aliases/nim.fish
 
+alias bsend="bluetooth-sendto --device=04:44:96:94:62:61"
+
 # inshellisense
 #[ -f ~/.inshellisense/key-bindings.fish ] && source ~/.inshellisense/key-bindings.fish
 

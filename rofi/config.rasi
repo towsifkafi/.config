@@ -11,4 +11,5 @@ configuration {
     modi: "window,run,ssh,filebrowser,emoji";
 }
 
-@theme "themes/dracula.rasi"
+//@theme "themes/dracula.rasi"
+@theme "themes/spotlight-dark.rasi"

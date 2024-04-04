@@ -32,6 +32,7 @@ omf install bobthefish
 
 > ### nano
 **.nanorc** needs to be in the home directory, otherwise it won't work
+- https://github.com/scopatz/nanorc (Syntax Highlighting)
 ```sh
 ln -s $HOME/.config/nano/.nanorc $HOME/
 ```

@@ -58,10 +58,10 @@ family = "DejaVu Sans Mono"
 style = "Regular"
 
 [hints]
-modifiers = "None"
+#modifiers = "None"
 
-[hints.launcher]
-program = "xdg-open"
+#[hints.launcher]
+#program = "xdg-open"
 
 [[keyboard.bindings]]
 action = "Paste"
@@ -160,12 +160,13 @@ multiplier = 3
 [selection]
 save_to_clipboard = true
 semantic_escape_chars = ",│`|:\"' ()[]{}<>\t"
-"window.dynamic_title" = true
+#"window.dynamic_title" = true
 
 [window]
 decorations = "full"
 decorations_theme_variant = "Dark"
 dynamic_padding = false
+dynamic_title = true
 opacity = 0.95
 title = "~"
 

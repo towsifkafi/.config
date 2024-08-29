@@ -17,3 +17,6 @@ alias history='history | nl'
 alias ..='cd ..'
 alias ...='cd ../..'
 alias ....='cd ../../..'
+
+alias pbcopy='xsel --clipboard --input'
+alias pbpaste='xsel --clipboard --output'

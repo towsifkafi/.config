@@ -20,3 +20,5 @@ bashtop/error.log
 !scripts/**
 !remote/**
 !warp-terminal/keybindings.yaml
+spicetify/Themes/Onepunch/.gitignore
+sublime-text/Packages/WakaTime/.gitignore

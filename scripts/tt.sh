@@ -116,6 +116,15 @@ elif [[ $command == "search" ]]; then
     fi
     find . -iname "*"$arg1 -type f | xargs grep -in --color "$arg1"
 
+
+# STORAGE CLEAN-UP TOOLS
+elif [[ $command == "clean" ]]; then
+    if [[ $arg1 == "yarn" ]]; then
+         printf "Cleaning $arg1 ache.."
+         yarn cache clean
+    fi
+
+
 # ----------------------------------------------------------------------------
 #           Random Stuffs
 # ----------------------------------------------------------------------------

@@ -17,5 +17,7 @@
 !scripts/**
 !remote/**
 
+!starship.toml
+
 spicetify/Themes/Onepunch/.gitignore
 sublime-text/Packages/WakaTime/.gitignore

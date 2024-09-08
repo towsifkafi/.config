@@ -13,23 +13,27 @@ end
 set --export BUN_INSTALL "$HOME/.bun"
 set --export PATH $BUN_INSTALL/bin $PATH
 
-# oh-my-fish stuff
-# theme used: bobthefish  --> omf install bobthefish
-
-set -g theme_nerd_fonts yes
-set -g theme_color_scheme nord
-set -g fish_prompt_pwd_dir_length 0
-set -g theme_date_format "+%a %H:%M"
-set -g theme_display_git_default_branch yes
-
 set -x GOPATH $HOME/go
 set -x PATH $PATH $GOPATH/bin
 
-#export FLYCTL_INSTALL="/home/kafi/.fly"
-#export PATH="$FLYCTL_INSTALL/bin:$PATH"
-
 set -x FLYCTL_INSTALL $HOME/.fly
 set -x PATH $PATH $FLYCTL_INSTALL/bin:$PATH
+
+set -gx PNPM_HOME "/home/kafi/.local/share/pnpm"
+if not string match -q -- $PNPM_HOME $PATH
+  set -gx PATH "$PNPM_HOME" $PATH
+end
+
+fish_add_path /home/kafi/.spicetify
+
+# oh-my-fish stuff
+# theme used: bobthefish  --> omf install bobthefish
+
+#set -g theme_nerd_fonts yes
+#set -g theme_color_scheme nord
+#set -g fish_prompt_pwd_dir_length 0
+#set -g theme_date_format "+%a %H:%M"
+#set -g theme_display_git_default_branch yes
 
 # aliases
 source ~/.config/fish/aliases/other.fish
@@ -43,11 +47,5 @@ alias bsend="bluetooth-sendto --device=04:44:96:94:62:61"
 # inshellisense
 #[ -f ~/.inshellisense/key-bindings.fish ] && source ~/.inshellisense/key-bindings.fish
 
-# pnpm
-set -gx PNPM_HOME "/home/kafi/.local/share/pnpm"
-if not string match -q -- $PNPM_HOME $PATH
-  set -gx PATH "$PNPM_HOME" $PATH
-end
-# pnpm end
-
-fish_add_path /home/kafi/.spicetify
+# starship
+starship init fish | source

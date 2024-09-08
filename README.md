@@ -12,10 +12,7 @@ fish_add_path $HOME/.config/scripts
 
 > ### fish
 Install:
-- [**oh-my-fish**](https://github.com/oh-my-fish/oh-my-fish)
-```sh
-omf install bobthefish
-```
+- [**starship**](https://starship.rs/)
 
 > ### rofi
 - **custom/notes.sh**:

@@ -9,16 +9,13 @@
 !fish/**
 !fastfetch/**
 !nvim/**
-!bashtop/**
-bashtop/error.log
 !rofi/**
-!omf/**
 !alacritty/**
 !tmux/**
 !zellij/**
 !nano/**
 !scripts/**
 !remote/**
-!warp-terminal/keybindings.yaml
+
 spicetify/Themes/Onepunch/.gitignore
 sublime-text/Packages/WakaTime/.gitignore

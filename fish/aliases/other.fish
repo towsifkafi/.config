@@ -21,5 +21,3 @@ alias ....='cd ../../..'
 alias pbcopy='xsel --clipboard --input'
 alias pbpaste='xsel --clipboard --output'
 
-# nushell
-alias n='nu -c '

@@ -1,3 +1,5 @@
+alias source-fish-config='source ~/.config/fish/config.fish'
+
 alias vim='nvim'
 alias fix-sound='systemctl --user restart pipewire.service'
 
@@ -20,4 +22,3 @@ alias ....='cd ../../..'
 
 alias pbcopy='xsel --clipboard --input'
 alias pbpaste='xsel --clipboard --output'
-

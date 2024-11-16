@@ -49,3 +49,4 @@ alias bsend="bluetooth-sendto --device=04:44:96:94:62:61"
 
 # starship
 starship init fish | source
+zoxide init fish | source
